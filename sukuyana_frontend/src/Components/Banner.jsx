@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Css/Header.css'
 // import png from '../Assets/text.png'
-import img1 from '../Assets/img1.png'
+import gif from '../Assets/ninja.gif'
 
 // import background from '../Assets/background.png'
 
@@ -22,7 +22,7 @@ function Banner() {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <img src={img1} alt='noimage' width="88%" />
+                        <img src={gif} alt='noimage' width="auto" />
                     </div>
                 </div>
             </div>

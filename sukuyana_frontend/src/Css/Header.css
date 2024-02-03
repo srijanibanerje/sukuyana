@@ -13,7 +13,7 @@
 .head{
   font-family: myFont;
   color: white;
-  font-size: 100px;
+  font-size: 125px;
   font-weight: 300;
 }
 
@@ -77,15 +77,13 @@ img
     color: white;
     font-size: 35px;
     font-family: myFont;
-
    
-    
 }
 
 .buybutton{
     background-color:greenyellow ;
     color:black;
-    margin-left: 74%;
+    /* margin-left: 74%; */
     width: 168%;
     padding: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -109,4 +107,13 @@ img
     font-weight: bold;
     font-family: myFont;
     
+}
+@media screen and (max-width: 480px)
+{
+  #logo{
+    width:20% ;
+  }
+  .buybutton{
+    width: 100%;
+  }
 }

@@ -1,0 +1,48 @@
+.burndate{
+    transition: .9s;
+}
+.burndate:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+.line1{
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+}
+.burndetails{
+    background-color: white;
+    color: red;
+    transition: all 0.4s;
+    transition-timing-function:cubic-bezier(0.5, 4, 0, 1);
+    font-size: 19px;
+    padding: 8px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+ .burnbutton{
+    text-decoration: none;
+}
+.burnbutton :hover{
+    background-color: red;
+    color: white;
+    transform: rotatex(20deg) rotateY(20deg);		
+}
+.contain{
+    background-color: rgba(0, 0, 0, 0.5);
+   
+}
+
+#back{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1090px;
+   
+}
+.contact{
+    padding: 5%;
+    margin-top: 20px;
+}

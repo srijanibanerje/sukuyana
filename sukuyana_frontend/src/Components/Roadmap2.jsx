@@ -16,7 +16,7 @@ function Roadmap2() {
   return (
     <div className="container" id='roadmap'>
       {/* style={{ backgroundColor: "rgb(38, 38, 38)" }}> */}
-      <h5 id="text_roadmap">SUKUYANA ROADMAP<img src={piccycle} alt="img" width="15%" /></h5>
+      <h5 id="text_roadmap" className='text-center'>SUKUYANA ROADMAP<img src={piccycle} alt="img" width="15%" /></h5>
       <MDBContainer className="py-5" >
         <h5 className='phase text-center'>Phase 1</h5>
 
