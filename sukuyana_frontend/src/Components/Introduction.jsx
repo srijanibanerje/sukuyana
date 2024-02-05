@@ -1,13 +1,14 @@
 import React from 'react'
 import '../Css/Introduction.css'
-import giphysna from '../Assets/giphysna.gif';
+import giphysna from '../Assets/weapon.gif';
+
 
 
 function Introduction() {
   return (
     <>
     
-    <div className="container" id='introduction' style={{ marginTop: "5%" }}>
+    <div className="container" id='introduction' style={{ marginTop: "3%" }}>
       <div className='row'>
         <h5 id="intro">WHY SUKUYANA?</h5>
         <div className="col-lg-4 mt-5">

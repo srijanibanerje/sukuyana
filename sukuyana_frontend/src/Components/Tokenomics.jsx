@@ -7,22 +7,30 @@ function Tokenomics() {
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 const options = {
   animationEnabled: true,
+
+  backgroundColor: 'rgb(47, 42, 42)',
   subtitles: [{
-    text: "SUKUYANA",
+    text:"SUKUYANA",
+    fontColor:"white",
     verticalAlign: "center",
-    fontSize: 24,
+    fontSize: 28,
     dockInsidePlotArea: true
   }],
   data: [{
     type: "doughnut",
-    showInLegend: true,
+    // showInLegend: true,
+   
     indexLabel: "{name}: {y}",
+    indexLabelFontColor: "white",
+    indexLabelFontSize: 20,
+   
     yValueFormatString: "#,###'%'",
     dataPoints: [
-      { name: "Community", y: 30 },
-      { name: "Development", y: 15 },
-      { name: "Airdrop", y: 5 },
-      { name: "Burn", y: 50 }
+      { name: "Community", y: 30},
+      { name: "Burn", y: 50  },
+      { name: "Development", y: 15},
+      { name: "Airdrop", y: 5 }
+      
       
     ]
   }]

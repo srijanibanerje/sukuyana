@@ -6,15 +6,18 @@
 
 #text{
   font-family: myFont;
-  color: greenyellow;
+  color: yellow;
   font-size: 35px;
   
 }
 .head{
   font-family: myFont;
-  color: white;
-  font-size: 125px;
-  font-weight: 300;
+  /* color: linear-gradient(to bottom, #fafa03 14%, #307918 100%); */
+  background: linear-gradient( #e0de36 , #f60707);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 105px;
+  font-weight: 500;
 }
 
 .item{
@@ -81,32 +84,47 @@ img
 }
 
 .buybutton{
-    background-color:greenyellow ;
+  background: linear-gradient(to bottom, #fafa03 14%, #307918 100%);
     color:black;
     /* margin-left: 74%; */
     width: 168%;
     padding: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
     font-size: 20px;
     border: none;
 }
+
 /* for banner button */
 .button {
+
   transition: all 0.4s;
     transition-timing-function:cubic-bezier(0.5, 4, 0, 1);
 }
 .button :hover{
-  
   background-color: white;
   color: black;
-  transform: rotatex(20deg) rotateY(20deg);				
+  transform: rotatex(20deg) rotateY(20deg);	
 }
+.buy{
+  background: linear-gradient(to bottom, #fafa03 14%, #307918 100%);
+  color: black;
+  font-weight: 500;
+  border: none;
+}
+
 .welcome{
-    color:greenyellow;
+    color:yellow;
     font-size: 35px;
     font-weight: bold;
     font-family: myFont;
     
+}
+
+
+#background{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 623px
 }
 @media screen and (max-width: 480px)
 {

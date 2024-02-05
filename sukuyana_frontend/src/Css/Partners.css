@@ -1,21 +1,38 @@
 .marquee-wrapper {
     overflow: hidden;
+    
   }
   
   .marquee {
     display: flex;
-    animation-name: marquee;
-    animation-duration: 15s;
+    overflow: hidden;
+    animation : marquee 15s linear infinite running;
+    transform: translateX(50%);
+  
+
+    /* animation-name: marquee;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    animation-direction: alternate;
-    transform: translateX(0);
+    animation-direction: running;
+    transform: translateX(0); */
     img {
       padding: 1em;
     }
+
+  }
+  .marquee:hover{
+   
+    animation-play-state:paused;
   }
   
   @keyframes marquee {
-    from {transform: translateX(0);}
-    to {transform: translateX(-100%);}
+  from
+    {transform :translatex(100%);}
+  to
+   {transform: translate(-100%);} 
   }
+    /* from {transform: translateX(0);}
+    to {transform: translateX(-100%);} */
+  
+ 

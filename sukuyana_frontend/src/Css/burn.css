@@ -46,3 +46,30 @@
     padding: 5%;
     margin-top: 20px;
 }
+
+    /* .container{
+        
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        /* margin-top: 7%; 
+    } */
+    .contact-form{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 25px;
+    margin-bottom: 30px;
+    }
+    .contact-content{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 16vh;
+    }
+    #text_burn{
+    color: rgb(232, 60, 13);
+    font-size: 90px;
+    font-family: headingfont;
+    font-weight: 500;
+        line-height: 1.2;
+    text-shadow: 1px 1px 2px rgb(21, 20, 20), 0 0 25px rgb(227, 25, 2), 0 0 5px rgb(223, 220, 12);
+    } 

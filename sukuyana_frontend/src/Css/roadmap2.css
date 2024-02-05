@@ -4,6 +4,15 @@
   font-family: headingfont;
   src: url(japa.ttf);
 }
+#road{
+  background-color:rgba(0, 0, 0, 0.5) ;
+}
+
+#backcover{
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
 .cardbody{
   display: flex;
   position: relative;
@@ -44,7 +53,7 @@
    */
   
 }
-.rightimg{
+/* .rightimg{
   animation-name: rotation1;
             animation-duration: 4s;
             animation-timing-function: ease-in-out;
@@ -54,28 +63,43 @@
 @keyframes rotation1{
   from {left: 800px;}
   to{left:2px;}
-}
-.leftimg{
+} */
+/* .leftimg{
   animation-name: rotation2;
             animation-duration: 4s;
             animation-timing-function: ease-out;
-            animation-delay: 3s;
+           
             animation-iteration-count: 1;
 }
 @keyframes rotation2{
-  from {right: 200%;}
-  to{right:0.5%;}
+  from {top: -75%;}
+  to{top:-65%;}
+} */
+.leftimg :hover{
+  animation: upDownAnimation 1s linear infinite alternate;
 }
-
+@keyframes upDownAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(30px); /* Adjust the value for the desired movement */
+  }
+}
+.rightimg:hover{
+  
+  animation: upDownAnimation 1s linear infinite alternate;
+}
 
 
 .main-timeline {
   position: relative;
 }
 .card{
-  background-color: rgb(47, 42, 42);
+   
   border-radius: 0;
-  border:none
+  border:none;
+  background-color: transparent
 }
 
 /* The actual timeline (the vertical ruler) */

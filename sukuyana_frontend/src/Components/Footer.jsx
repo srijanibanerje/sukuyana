@@ -33,11 +33,9 @@ function Footer() {
                                         <div className="thumb-content"><a href="#roadmap" className='links'>Roadmap</a></div>
                                     </li>
                                     <li>
-                                        <div className="thumb-content"><a href="#." className='links'>Burns</a></div>
+                                        <div className="thumb-content"><a href="#back" className='links'>Burns</a></div>
                                     </li>
-                                    <li>
-                                        <div className="thumb-content"><a href="#." className='links'>Contact us</a></div>
-                                    </li>
+                                    
 
                                 </ul>
                             </div>
@@ -58,12 +56,13 @@ function Footer() {
 
                                 {/* <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p> */}
                                 <ul className="social-footer2">
-                                    <li className=""><a title="youtube" className='links' target="_blank" href="/">
-                                        <i className="fa fa-youtube-play" style={{ fontSize: "24px" }} ></i>
+                                    <li ><a  className='links' target="_blank"rel='noreferrer' href="https://medium.com/@sukuyanatoken">
+                                        <i className="fa fa-medium" style={{ fontSize: "24px" }} ></i>
                                     </a></li>
 
                                     <li className="">
-                                        <a className='links' href='/'> <i class="fa fa-facebook-f" style={{ fontSize: "24px" }}></i></a>
+                                        <a className='links' href='https://t.me/sukuyanatoken' target="_blank"rel='noreferrer'>
+                                             <i class="fa fa-telegram" style={{ fontSize: "24px" }}></i></a>
                                     </li>
 
                                     <li className=""><a className='links' href="https://twitter.com/Sukuyanatoken" target="blank" title="Twitter">

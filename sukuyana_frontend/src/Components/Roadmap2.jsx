@@ -11,18 +11,19 @@ import pic7 from '../Assets/pic7.png';
 import pic8 from '../Assets/pic8.png';
 import pic9 from '../Assets/pic10.png';
 import piccycle from '../Assets/piccycle.png';
-
+import bg from '../Assets/background.png';
 function Roadmap2() {
   return (
+    <div  id="backcover"style={{ backgroundImage: `url(${bg})` }}>
     <div className="container" id='roadmap'>
       {/* style={{ backgroundColor: "rgb(38, 38, 38)" }}> */}
       <h5 id="text_roadmap" className='text-center'>SUKUYANA ROADMAP<img src={piccycle} alt="img" width="15%" /></h5>
-      <MDBContainer className="py-5" >
+      <MDBContainer className="py-5" id='road'>
         <h5 className='phase text-center'>Phase 1</h5>
 
         <div className="main-timeline">
           <div className="timeline left">
-            <MDBCard className='leftimg'>
+            <MDBCard className='leftimg' id='border'>
               <MDBCardBody className=" cardbody p-4">
                 {/* <h3>1</h3> */}
                 <img src={pic1} alt='noimg' className='img' width="55%" />
@@ -36,7 +37,7 @@ function Roadmap2() {
             </MDBCard>
           </div>
           <div className="timeline right">
-            <MDBCard className='rightimg'>
+            <MDBCard className='rightimg' >
               <MDBCardBody className=" cardbody p-4">
                 <img src={pic2} alt='noimg' className='img' width="55%" />
                 {/* <h3>2</h3> */}
@@ -235,6 +236,7 @@ function Roadmap2() {
 
         </div>
       </MDBContainer>
+    </div>
     </div>
   )
 }
