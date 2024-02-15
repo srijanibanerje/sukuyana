@@ -38,8 +38,9 @@ function Header() {
       </ul>  
     </div>
      <form className="form-inline my-2 my-lg-0">
-     <a href='https://drive.google.com/file/d/13dbBXQ5hn_4ZPCX-v5zWQo4HoXqqYUX9/view?usp=sharing' className='button' target='_blank' rel='noreferrer'>
-          <button className="buybutton btn btn-outline-light" type="submit" >WHITEPAPER</button></a>
+     <a href='https://drive.google.com/file/d/13dbBXQ5hn_4ZPCX-v5zWQo4HoXqqYUX9/view?usp=sharing' className='buybutton btn btn-outline-light' target='_blank' rel='noreferrer'>
+     WHITEPAPER {/* <button className="buybutton btn btn-outline-light" type="submit" >WHITEPAPER</button> */}
+          </a>
    </form>
   </div>
 </nav> 

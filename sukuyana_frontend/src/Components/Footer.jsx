@@ -44,7 +44,7 @@ function Footer() {
                         <div className="col-xs-12 col-sm-6 col-md-3">
                             <div className="widget no-box">
                                 <h5 className="widget-title">Contract Address<span></span></h5>
-                                <p>Get access to your full Training and Marketing Suite.</p>
+                                <p>H B Town, Sodepur, Kolkata, Khardaha, West Bengal 700110</p>
                                 {/* <a className="btn" href="https://bit.ly/3m9avif" target="_blank">Subscribe Now</a> */}
                             </div>
                         </div>
