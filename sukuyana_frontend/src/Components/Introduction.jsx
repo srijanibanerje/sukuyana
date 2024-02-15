@@ -8,7 +8,7 @@ function Introduction() {
   return (
     <>
     
-    <div className="container" id='introduction' style={{ marginTop: "3%" }}>
+    <div className="container" id='introduction'>
       <div className='row'>
         <h5 id="intro">WHY SUKUYANA?</h5>
         <div className="col-lg-4 mt-5">

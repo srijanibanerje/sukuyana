@@ -18,7 +18,8 @@ function Header() {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNav" >
-      <ul className="navbar-nav" style={{marginLeft:"15%"}}>
+      <ul className="navbar-nav" 
+       style={{marginLeft:"15%"}}>
         <li className="item nav-item">
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>

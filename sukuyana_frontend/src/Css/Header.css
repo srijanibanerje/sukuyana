@@ -6,7 +6,7 @@
 
 #text{
   font-family: myFont;
-  color: yellow;
+  color: rgb(16, 191, 16);
   font-size: 35px;
   
 }
@@ -16,8 +16,8 @@
   background: linear-gradient( #e0de36 , #f60707);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 105px;
-  font-weight: 500;
+  
+  /* font-weight: 500; */
 }
 
 .item{
@@ -29,10 +29,10 @@ img
 	max-width: 100%;
 }
 
- .image-right
+ /* .image-right
 {
 	margin: 1em 0;
-}
+} */
 
 @media (min-width: 20em)
 {
@@ -113,7 +113,7 @@ img
 }
 
 .welcome{
-    color:yellow;
+    color:rgb(24, 190, 24);
     font-size: 35px;
     font-weight: bold;
     font-family: myFont;

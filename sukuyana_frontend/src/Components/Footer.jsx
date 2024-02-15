@@ -62,7 +62,7 @@ function Footer() {
 
                                     <li className="">
                                         <a className='links' href='https://t.me/sukuyanatoken' target="_blank"rel='noreferrer'>
-                                             <i class="fa fa-telegram" style={{ fontSize: "24px" }}></i></a>
+                                             <i className="fa fa-telegram" style={{ fontSize: "24px" }}></i></a>
                                     </li>
 
                                     <li className=""><a className='links' href="https://twitter.com/Sukuyanatoken" target="blank" title="Twitter">
