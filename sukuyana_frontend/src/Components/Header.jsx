@@ -1,8 +1,5 @@
 import React from 'react'
 import logo from '../Assets/logo.gif'
-
-
-
 import '../Css/Header.css'
 
 function Header() {
@@ -18,9 +15,9 @@ function Header() {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNav" >
-      <ul className="navbar-nav" 
-       style={{marginLeft:"15%"}}>
-        <li className="item nav-item">
+      <ul className="navbar-nav mx-auto " >
+      {/* //  style={{marginLeft:"15%"}}> */}
+        <li className="item nav-item m">
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="item nav-item">
@@ -35,13 +32,17 @@ function Header() {
         <li className="item nav-item" id='burn'>
           <a className="nav-link" href="#back" >Burn</a>
         </li>
-      </ul>  
-    </div>
-     <form className="form-inline my-2 my-lg-0">
-     <a href='https://drive.google.com/file/d/13dbBXQ5hn_4ZPCX-v5zWQo4HoXqqYUX9/view?usp=sharing' className='buybutton btn' target='_blank' rel='noreferrer'>
+        <li className="item nav-item" style={{marginLeft:"10%"}}>
+        
+        <a href='https://drive.google.com/file/d/13dbBXQ5hn_4ZPCX-v5zWQo4HoXqqYUX9/view?usp=sharing' className='buybutton btn' target='_blank' rel='noreferrer'>
      WHITEPAPER {/* <button className="buybutton btn btn-outline-light" type="submit" >WHITEPAPER</button> */}
           </a>
-   </form>
+        </li>
+      </ul>  
+    </div>
+    
+    
+  
   </div>
 </nav> 
 

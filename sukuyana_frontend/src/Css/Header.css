@@ -29,10 +29,7 @@ img
 	max-width: 100%;
 }
 
- /* .image-right
-{
-	margin: 1em 0;
-} */
+
 
 @media (min-width: 20em)
 {
@@ -84,14 +81,22 @@ img
 }
 
 .buybutton{
-  background: linear-gradient(to bottom, #fafa03 14%, #307918 100%);
-    color:black;
-    /* margin-left: 74%; */
-    width: 168%;
-    padding: 15px;
-    font-weight: 600;
+  /* background: linear-gradient(to bottom, #fafa03 14%, #307918 100%);
+    color:black; */
+    background: linear-gradient(to bottom, #fafa03 14%, #307918 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+   
+    width: 100%;
+    padding: 9px;
+    font-weight: 400;
     font-size: 20px;
-    border: none;
+    border: 2x solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    
+    border-image-source: linear-gradient(to bottom, #fafa03 14%, #307918 100%);
+    
 }
 
 /* for banner button */
@@ -124,14 +129,16 @@ img
 #background{
   background-repeat: no-repeat;
   background-size: cover;
-  height: 623px
+  /* height: 623px */
 }
-@media screen and (max-width: 480px)
+@media screen and (max-width: 1480px)
 {
+ 
   #logo{
     width:20% ;
   }
   .buybutton{
-    width: 100%;
+    width: 35%;
+ 
   }
 }

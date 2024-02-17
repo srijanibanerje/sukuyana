@@ -4,20 +4,21 @@ import logo from '../Assets/logo.gif'
 
 function Footer() {
     return (
+        <>
         <footer id="footer" className="footer-1">
             <div className="main-footer widgets-dark typo-light">
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-xs-12 col-sm-6 col-md-3">
+                        <div className="col-xs-12 col-sm-8 col-md-6">
                             <div className="widget subscribe no-box">
-                                <h5 className="widget-title"> <img src={logo} alt='noimage' width="40%" /> SUKUYANA</h5>
+                                <h5 className="widget-title"> <img src={logo} alt='noimage' width="20%" /> SUKUYANA</h5>
                                 <p>Our community is too strong , SUKUYANA will be the killer of any meme coin in crypto currency world. </p>
                             </div>
                         </div>
 
-                        <div className="col-xs-12 col-sm-6 col-md-3">
-                            <div className="widget no-box">
+                        <div className="col-xs-12 col-sm-8 col-md-3">
+                            <div className="widget no-box ">
                                 <h5 className="widget-title">Quick Links<span></span></h5>
                                 <ul className="thumbnail-widget">
                                     <li>
@@ -41,15 +42,15 @@ function Footer() {
                             </div>
                         </div>
 
-                        <div className="col-xs-12 col-sm-6 col-md-3">
+                        {/* <div className="col-xs-12 col-sm-6 col-md-3">
                             <div className="widget no-box">
                                 <h5 className="widget-title">Contract Address<span></span></h5>
                                 <p>H B Town, Sodepur, Kolkata, Khardaha, West Bengal 700110</p>
-                                {/* <a className="btn" href="https://bit.ly/3m9avif" target="_blank">Subscribe Now</a> */}
+                              
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className="col-xs-12 col-sm-6 col-md-3">
+                        <div className="col-xs-12 col-sm-8 col-md-3">
 
                             <div className="widget no-box">
                                 <h5 className="widget-title">Contact Us</h5>
@@ -87,6 +88,7 @@ function Footer() {
                 </div>
             </div>
         </footer>
+        </>
     )
 }
 

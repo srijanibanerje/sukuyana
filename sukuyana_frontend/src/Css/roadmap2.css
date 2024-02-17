@@ -25,10 +25,10 @@
 }
 #text_roadmap{
   color: greenyellow;
-  font-size: 90px;
+  /* font-size: 90px; */
   font-family: headingfont;
-  font-weight: 500;
-      line-height: 1.2;
+  /* font-weight: 500;
+      line-height: 1.2; */
   text-shadow: 1px 1px 2px rgb(21, 20, 20), 0 0 25px rgb(35, 62, 9), 0 0 5px rgb(202, 199, 54);
   } 
 .phase{
@@ -41,40 +41,12 @@
   }
 .img{
   
-  /* height: auto;
-  margin: 0 auto 30%; */
   position: absolute;
   top: -65%;
-  /* animation-name: rotation;
-            animation-duration: 2s;
-            animation-timing-function: ease-in-out;
-            animation-delay: 1s;
-            animation-iteration-count: 4;
-   */
+ 
   
 }
-/* .rightimg{
-  animation-name: rotation1;
-            animation-duration: 4s;
-            animation-timing-function: ease-in-out;
-            animation-delay: 3s;
-            animation-iteration-count: 1;
-}
-@keyframes rotation1{
-  from {left: 800px;}
-  to{left:2px;}
-} */
-/* .leftimg{
-  animation-name: rotation2;
-            animation-duration: 4s;
-            animation-timing-function: ease-out;
-           
-            animation-iteration-count: 1;
-}
-@keyframes rotation2{
-  from {top: -75%;}
-  to{top:-65%;}
-} */
+
 .leftimg :hover{
   animation: upDownAnimation 1s linear infinite alternate;
 }

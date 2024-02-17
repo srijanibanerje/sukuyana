@@ -14,10 +14,10 @@ import piccycle from '../Assets/piccycle.png';
 import bg from '../Assets/background.png';
 function Roadmap2() {
   return (
+    <>
     <div  id="backcover"style={{ backgroundImage: `url(${bg})` }}>
     <div className="container" id='roadmap'>
-      {/* style={{ backgroundColor: "rgb(38, 38, 38)" }}> */}
-      <h5 id="text_roadmap" className='text-center'>SUKUYANA ROADMAP<img src={piccycle} alt="img" width="15%" /></h5>
+      <h5  className="display-1 text-center" id="text_roadmap">SUKUYANA ROADMAP<img src={piccycle} alt="img" width="15%" /></h5>
       <MDBContainer className="py-5" id='road'>
         <h5 className='phase text-center'>Phase 1</h5>
 
@@ -238,6 +238,7 @@ function Roadmap2() {
       </MDBContainer>
     </div>
     </div>
+    </>
   )
 }
 

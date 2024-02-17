@@ -10,8 +10,7 @@ import gif from '../Assets/ninja.gif'
 function Banner() {
     return (
         <>
-        <div id='background' 
-        style={{backgroundImage:`url(${blk})`}}>
+        <div className='h-100'  id='background'  style={{backgroundImage:`url(${blk})`}}>
             <div className="container" >
                 <div className="row flex-1">
                     <div className=" col-md-6 " >

@@ -5,10 +5,10 @@ import Footer from './Components/Footer'
  import Partners from "./Components/Partners";
 import Tokenomics from "./Components/Tokenomics"
 import Introduction from "./Components/Introduction"
-//  import Roadmap from './Components/Roadmap'
+
  import Roadmap2 from "./Components/Roadmap2";
  import Burn from './Components/Burn';
- import './App.css'
+
  import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 

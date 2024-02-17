@@ -8,10 +8,11 @@ function Burn() {
     return (
         <>
             <div id="back" style={{ backgroundImage: `url(${bg})` }}>
-                <h5 id="text_burn" className='text-center'>SUKUYANA BURN DATES</h5>
+               
                 <div className='container contain'>
 
                     <div className="row">
+                    <h5 id="text_burn" className='display-1 text-center'>SUKUYANA BURN DATES</h5>
                         <div className="col-lg-6">
                             <div className="p-5 mt-4 burndate">
                                 <img src={burndate} width="auto" height="auto" alt='img' />
