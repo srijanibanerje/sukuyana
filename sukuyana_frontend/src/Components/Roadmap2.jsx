@@ -21,7 +21,7 @@ function Roadmap2() {
       <MDBContainer className="py-5" id='road'>
         <h5 className='phase text-center'>Phase 1</h5>
 
-        <div className="main-timeline">
+        <div className="main-timeline d-flex col-md-4">
           <div className="timeline left">
             <MDBCard className='leftimg' id='border'>
               <MDBCardBody className=" cardbody p-4">
@@ -134,7 +134,7 @@ function Roadmap2() {
 
         </div>
         <h5 className='phase text-center'>Phase 2</h5>
-        <div className="main-timeline">
+        <div className="main-timeline d-flex col-md-4">
 
 
           <div className="timeline right">
