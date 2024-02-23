@@ -17,7 +17,7 @@ function Banner() {
                         <div className="p-5 mt-4"  >
                             <h1 className="display-4 welcome">Welcome to</h1>
                             
-                            <h1 className="display-1 head">SUKUYANA</h1><br />
+                            <h1 className="display-2 head">SUKUYANA</h1><br />
                             <p className="text1"><span id='text'>Most Powerfully</span> Meme Token Ever !</p><br />
                             <a className="button" href="https://pancakeswap.finance/swap?outputCurrency=0x485F66f20F6732017345ff3437377EC84Ea75039" target='_blank'rel='noreferrer'>
                                 <button className='buy btn btn-outline-light btn-lg'  >BUY NOW</button></a>

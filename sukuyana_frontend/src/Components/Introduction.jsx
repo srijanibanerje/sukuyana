@@ -9,7 +9,7 @@ function Introduction() {
     <>
       <div className="container" id='introduction'>
         <div className='row'>
-          <h5 className="display-1" id="intro">WHY SUKUYANA?</h5>
+          <h5 className="display-1 text-center" id="intro">WHY SUKUYANA?</h5>
           <div className="col-lg-4 ">
             <p id='intro_para'>SUKUYANA is super powerfull meme token on Binance smart chain.
               SUKUYANA will be the right choice every meme crypto currency lover.<br />Its a open source community driven meme token which is basically for
